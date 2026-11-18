@@ -1,0 +1,18 @@
+[package]
+name = "pdftk-rs"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-2.0-or-later"
+description = "A Rust port of pdftk (via pdftk-java), the PDF toolkit"
+
+[[bin]]
+name = "pdftk-rs"
+path = "src/main.rs"
+
+[dependencies]
+lopdf = "0.47"
+
+[profile.release]
+opt-level = 3
+lto = true
+strip = true
