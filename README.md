@@ -67,7 +67,7 @@ several kinds of damaged file.
 
 ## How it is tested
 
-The Java `pdftk` is the specification. Most of the 139 tests run both programs
+The Java `pdftk` is the specification. Most of the 138 tests run both programs
 on the same command line and compare the results:
 
 - exit code, stdout and stderr, byte for byte;
