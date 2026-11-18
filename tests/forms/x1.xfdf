@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xfdf xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve">
+<f href="kitchen.pdf"/>
+<fields>
+<field name="text_left"><value>Xfdf &amp; entities &lt;&gt; &#233; &eacute; &#x20ac; &bogus; caf&#xe9;</value></field>
+<field name="text_center"><value><![CDATA[cdata <b> & stuff]]></value></field>
+<field name="parent"><field name="child1"><value>nested one</value></field><field name="child2"><value>nested two</value><value-richtext><body><p>rich</p></body></value-richtext></field></field>
+<field name="list_multi"><value>1</value><value>4</value></field>
+<field name="check1"><value>Yes</value></field>
+<field name="text_multi"><value>line1
+line2
+</value></field>
+<!-- comment <field> -->
+<field name="combo"><value>red</value></field>
+</fields>
+</xfdf>

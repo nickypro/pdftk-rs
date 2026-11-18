@@ -1,0 +1,5 @@
+%FDF-1.2
+1 0 obj << /FDF << /Encoding /utf_8 /Fields [ << /T (text_left) /V (utf8 café €) >> << /T (text_center) /V 3 0 R >> ] >> >> endobj
+3 0 obj (indirect value) endobj
+trailer << /Root 1 0 R >>
+%%EOF

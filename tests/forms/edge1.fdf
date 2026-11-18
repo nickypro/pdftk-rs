@@ -1,0 +1,35 @@
+%FDF-1.2
+1 0 obj
+<< /FDF << /Fields [
+<< /T (text_left) /V () >>
+<< /T (text_center) /V (   ) >>
+<< /T (text_right) /V (trailing   ) >>
+<< /T (text_auto) /V (  ) >>
+<< /T (text_auto_long) /V (  lead\nnewline in single) >>
+<< /T (text_multi) /V (a\n\nb\n) >>
+<< /T (text_multi_auto) /V (   leading spaces and\ttab\r\nCRLF line\rCR line   \n\n\nend) >>
+<< /T (text_multi_center) /V (Supercalifragilisticexpialidocious_Supercalifragilisticexpialidocious_Supercalifragilisticexpialidocious and more words    with   spaces) >>
+<< /T (text_comb) /V (123456789012) >>
+<< /T (text_comb_center) /V (ab) >>
+<< /T (text_times) /V <feff20ac0020006500750072006f00200153> >>
+<< /T (text_password) /V (p\nw) >>
+<< /T (list) /V (zzz) >>
+<< /T (combo) /V (purple) >>
+<< /T (combo_pairs) /V (Green colour) >>
+<< /T (radio1) /V /Off >>
+<< /T (radio_opt) /V (first) >>
+<< /T (check1) /V /Off >>
+<< /T (check2) /V /On >>
+<< /T (parent) /Kids [ << /T (child1) /V (kid one) /RV (<p>rich</p>) >> << /T (child2) /V /NameVal >> ] >>
+<< /T (p2) /Kids [ << /T (text) /V (dotted) >> ] >>
+<< /T (text_noda) /V (x) >>
+<< /T (text_border_bevel) /V (  ) >>
+<< /T (list_multi) /V [(1) (2) (3)] >>
+<< /T (sig) /V (sigval) >>
+<< /T (push) /V (pushval) >>
+<< /T (text_rot90) /V () >>
+] >> >>
+endobj
+trailer
+<< /Root 1 0 R >>
+%%EOF

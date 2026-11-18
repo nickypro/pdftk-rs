@@ -10,7 +10,7 @@ name = "pdftk-rs"
 path = "src/main.rs"
 
 [dependencies]
-lopdf = "0.47"
+lopdf = { version = "0.47", default-features = false }
 
 [profile.release]
 opt-level = 3

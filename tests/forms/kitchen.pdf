@@ -1,0 +1,325 @@
+%PDF-1.5
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /AcroForm 4 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 40 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 9 0 R /Resources << /Font << /Helv 5 0 R >> >> /Annots [51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R 63 0 R 64 0 R 65 0 R 66 0 R 67 0 R 68 0 R 69 0 R 70 0 R 71 0 R 72 0 R 73 0 R 74 0 R 75 0 R 76 0 R 77 0 R 78 0 R 79 0 R 80 0 R 81 0 R 82 0 R 83 0 R 84 0 R 85 0 R 86 0 R 87 0 R 88 0 R 89 0 R 90 0 R 91 0 R 92 0 R 93 0 R 94 0 R 95 0 R] >>
+endobj
+4 0 obj
+<< /Fields [51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R 63 0 R 64 0 R 65 0 R 66 0 R 67 0 R 68 0 R 69 0 R 70 0 R 71 0 R 72 0 R 73 0 R 74 0 R 75 0 R 76 0 R 77 0 R 30 0 R 31 0 R 82 0 R 83 0 R 34 0 R 35 0 R 89 0 R 90 0 R 91 0 R 92 0 R 93 0 R 94 0 R 95 0 R 96 0 R 97 0 R 98 0 R] /DR << /Font << /Helv 5 0 R /TiRo 6 0 R /ZaDb 7 0 R /Cour 8 0 R >> >> /DA (/Helv 0 Tf 0 g) >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding << /Type /Encoding /BaseEncoding /WinAnsiEncoding /Differences [ 128 /Euro ] >> >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /ZapfDingbats >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+9 0 obj
+<< /Length 52 >>
+stream
+BT /Helv 14 Tf 50 780 Td (Form test page one) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Length 52 >>
+stream
+BT /Helv 14 Tf 50 780 Td (Form test page two) Tj ET
+endstream
+endobj
+30 0 obj
+<< /T (parent) /FT /Tx /DA (/Cour 9 Tf 0 g) /Kids [78 0 R 79 0 R] >>
+endobj
+31 0 obj
+<< /T (twowidgets) /FT /Tx /DA (/Helv 12 Tf 0 g) /Kids [80 0 R 81 0 R] >>
+endobj
+32 0 obj
+<< /Type /XObject /Subtype /Form /BBox [0 0 12 12] /Resources << /Font << /Helv 5 0 R /ZaDb 7 0 R >> >> /Length 12 >>
+stream
+/Tx BMC
+EMC
+
+endstream
+endobj
+33 0 obj
+<< /Type /XObject /Subtype /Form /BBox [0 0 12 12] /Resources << /Font << /Helv 5 0 R /ZaDb 7 0 R >> >> /Length 36 >>
+stream
+q BT /ZaDb 10 Tf 1 2 Td (4) Tj ET Q
+
+endstream
+endobj
+34 0 obj
+<< /T (radio1) /FT /Btn /Ff 49152 /V /b /Kids [84 0 R 85 0 R 86 0 R] >>
+endobj
+35 0 obj
+<< /T (radio_opt) /FT /Btn /Ff 49152 /Opt [(first) (second \(2\))] /Kids [87 0 R 88 0 R] >>
+endobj
+36 0 obj
+<< /Type /XObject /Subtype /Form /BBox [0 0 12 12] /Resources << /Font << /Helv 5 0 R /ZaDb 7 0 R >> >> /Length 28 >>
+stream
+q 0 0 1 rg 0 0 12 12 re f Q
+
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Rotate 90 /Contents 10 0 R /Resources << /Font << /Helv 5 0 R >> >> /Annots [96 0 R 97 0 R 98 0 R] >>
+endobj
+51 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_left) /DA (/Helv 12 Tf 0 g) /F 4 /Rect [50 732 250 752] /P 3 0 R >>
+endobj
+52 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_center) /Q 1 /DA (/Helv 12 Tf 0 0 1 rg) /F 4 /Rect [50 704 250 724] /P 3 0 R >>
+endobj
+53 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_right) /Q 2 /DA (/Helv 9 Tf 0.5 g) /F 4 /Rect [50 676 250 696] /P 3 0 R >>
+endobj
+54 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_auto) /DA (/Helv 0 Tf 0 g) /F 4 /Rect [50 648 250 668] /P 3 0 R >>
+endobj
+55 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_auto_long) /DA (/Helv 0 Tf 0 g) /F 4 /Rect [50 620 170 640] /P 3 0 R >>
+endobj
+56 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_times) /DA (/TiRo 11 Tf 1 0 0 rg) /F 4 /Rect [50 592 250 612] /P 3 0 R >>
+endobj
+57 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_cour) /DA (/Cour 10 Tf 0 0 0 1 k) /F 4 /Rect [50 564 250 584] /P 3 0 R >>
+endobj
+58 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_nodr) /DA (/HeBo 10 Tf) /F 4 /Rect [50 536 250 556] /P 3 0 R >>
+endobj
+59 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_noda) /F 4 /Rect [50 508 250 528] /P 3 0 R >>
+endobj
+60 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_maxlen) /MaxLen 5 /DA (/Helv 12 Tf 0 g) /F 4 /Rect [50 480 250 500] /P 3 0 R >>
+endobj
+61 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_comb) /Ff 16777216 /MaxLen 8 /DA (/Helv 12 Tf 0 g) /F 4 /MK << /BC [0 0 0] >> /Rect [50 452 250 472] /P 3 0 R >>
+endobj
+62 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_comb_center) /Q 1 /Ff 16777216 /MaxLen 8 /DA (/Helv 0 Tf 0 g) /F 4 /MK << /BC [0 0 0] /BG [1 1 0.8] >> /Rect [50 424 250 444] /P 3 0 R >>
+endobj
+63 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_password) /Ff 8192 /DA (/Helv 12 Tf 0 g) /F 4 /Rect [50 396 250 416] /P 3 0 R >>
+endobj
+64 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_multi) /Ff 4096 /DA (/Helv 10 Tf 0 g) /F 4 /Rect [50 328 250 388] /P 3 0 R >>
+endobj
+65 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_multi_auto) /Ff 4096 /DA (/Helv 0 Tf 0 g) /F 4 /MK << /BC [1 0 0] /BG [0.9] >> /Rect [50 270 250 320] /P 3 0 R >>
+endobj
+66 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_multi_center) /Q 1 /Ff 4096 /DA (/Helv 10 Tf 0 g 14 TL) /F 4 /Rect [50 202 250 262] /P 3 0 R >>
+endobj
+67 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_border_bevel) /DA (/Helv 12 Tf 0 g) /F 4 /MK << /BC [0 0 1] /BG [0.8 0.9 1] >> /BS << /W 2 /S /B >> /Rect [50 170 250 194] /P 3 0 R >>
+endobj
+68 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_border_inset) /DA (/Helv 12 Tf 0 g) /F 4 /MK << /BC [0 0 1] >> /BS << /W 2 /S /I >> /Rect [50 138 250 162] /P 3 0 R >>
+endobj
+69 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_border_under) /DA (/Helv 12 Tf 0 g) /F 4 /MK << /BC [0 0 1] >> /BS << /W 1 /S /U >> /Rect [50 110 250 130] /P 3 0 R >>
+endobj
+70 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_border_dash) /DA (/Helv 12 Tf 0 g) /F 4 /MK << /BC [0 1 0 0] >> /BS << /W 1 /S /D >> /Rect [50 82 250 102] /P 3 0 R >>
+endobj
+71 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_border_arr) /DA (/Helv 12 Tf 0 g) /F 4 /MK << /BC [0.3] >> /Border [0 0 3] /Rect [50 50 250 74] /P 3 0 R >>
+endobj
+72 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_rot90) /DA (/Helv 12 Tf 0 g) /F 4 /MK << /R 90 /BC [0 0 0] >> /Rect [300 600 320 740] /P 3 0 R >>
+endobj
+73 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_hidden) /DA (/Helv 12 Tf 0 g) /F 6 /Rect [340 700 540 720] /P 3 0 R >>
+endobj
+74 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_noprint) /DA (/Helv 12 Tf 0 g) /F 0 /Rect [340 670 540 690] /P 3 0 R >>
+endobj
+75 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_noview) /DA (/Helv 12 Tf 0 g) /F 36 /Rect [340 640 540 660] /P 3 0 R >>
+endobj
+76 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_unicode) /DA (/Helv 12 Tf 0 g) /F 4 /TU (Alt \351 name) /Rect [340 610 540 630] /P 3 0 R >>
+endobj
+77 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (text_readonly) /Ff 1 /DA (/Helv 12 Tf 0 g) /F 4 /V (ro) /DV (ro) /Rect [340 580 540 600] /P 3 0 R >>
+endobj
+78 0 obj
+<< /Type /Annot /Subtype /Widget /T (child1) /DA (/Helv 12 Tf 0 g) /F 4 /Rect [340 550 540 570] /Parent 30 0 R /P 3 0 R >>
+endobj
+79 0 obj
+<< /Type /Annot /Subtype /Widget /T (child2) /Q 2 /F 4 /Rect [340 520 540 540] /Parent 30 0 R /P 3 0 R >>
+endobj
+80 0 obj
+<< /Type /Annot /Subtype /Widget /F 4 /Rect [340 490 430 510] /Parent 31 0 R /P 3 0 R >>
+endobj
+81 0 obj
+<< /Type /Annot /Subtype /Widget /F 4 /Rect [450 490 540 510] /Parent 31 0 R /Q 1 /P 3 0 R >>
+endobj
+82 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Btn /T (check1) /V /Off /AS /Off /F 4 /Rect [340 460 352 472] /AP << /N << /Off 32 0 R /Yes 33 0 R >> >> /P 3 0 R >>
+endobj
+83 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Btn /T (check2) /V /On /AS /On /F 4 /Rect [360 460 372 472] /AP << /N << /Off 32 0 R /On 33 0 R >> /D << /Off 32 0 R /On 33 0 R >> >> /P 3 0 R >>
+endobj
+84 0 obj
+<< /Type /Annot /Subtype /Widget /AS /Off /F 4 /Rect [340 430 352 442] /Parent 34 0 R /AP << /N << /Off 32 0 R /a 33 0 R >> >> /P 3 0 R >>
+endobj
+85 0 obj
+<< /Type /Annot /Subtype /Widget /AS /b /F 4 /Rect [360 430 372 442] /Parent 34 0 R /AP << /N << /Off 32 0 R /b 33 0 R >> >> /P 3 0 R >>
+endobj
+86 0 obj
+<< /Type /Annot /Subtype /Widget /AS /Off /F 4 /Rect [380 430 392 442] /Parent 34 0 R /AP << /N << /Off 32 0 R /c#20d 33 0 R >> >> /P 3 0 R >>
+endobj
+87 0 obj
+<< /Type /Annot /Subtype /Widget /AS /Off /F 4 /Rect [340 400 352 412] /Parent 35 0 R /AP << /N << /Off 32 0 R /0 33 0 R >> >> /P 3 0 R >>
+endobj
+88 0 obj
+<< /Type /Annot /Subtype /Widget /AS /Off /F 4 /Rect [360 400 372 412] /Parent 35 0 R /AP << /N << /Off 32 0 R /1 33 0 R >> >> /P 3 0 R >>
+endobj
+89 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Btn /T (push) /Ff 65536 /F 4 /Rect [340 370 400 390] /MK << /CA (Go) >> /P 3 0 R >>
+endobj
+90 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Ch /T (combo) /Ff 131072 /Opt [(red) (green) (blue)] /V (green) /DA (/Helv 10 Tf 0 g) /F 4 /Rect [340 340 540 360] /P 3 0 R >>
+endobj
+91 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Ch /T (combo_pairs) /Ff 131072 /Opt [[(r) (Red colour)] [(g) (Green colour)] [(b) (Blue colour)]] /DA (/Helv 10 Tf 0 g) /F 4 /Rect [340 310 540 330] /P 3 0 R >>
+endobj
+92 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Ch /T (combo_edit) /Ff 393216 /DA (/Helv 10 Tf 0 g) /F 4 /Rect [340 280 540 300] /P 3 0 R >>
+endobj
+93 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Ch /T (list) /Opt [(one) (two) (three) (four) (five) (six) (seven)] /DA (/Helv 10 Tf 0 g) /F 4 /MK << /BC [0 0 0] >> /Rect [340 200 440 270] /P 3 0 R >>
+endobj
+94 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Ch /T (list_multi) /Ff 2097152 /Opt [[(1) (one)] [(2) (two)] [(3) (three)] [(4) (four)]] /V [(1) (3)] /I [0 2] /DA (/Helv 0 Tf 0 g) /F 4 /MK << /BC [0 0 0] >> /Rect [450 200 540 270] /P 3 0 R >>
+endobj
+95 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Sig /T (sig) /F 4 /Rect [340 170 540 190] /P 3 0 R >>
+endobj
+96 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (p2.text) /DA (/Helv 12 Tf 0 g) /F 4 /Rect [50 700 250 720] /P 40 0 R >>
+endobj
+97 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Tx /T (p2_rot) /DA (/Helv 12 Tf 0 g) /F 4 /MK << /R 90 >> /Rect [300 600 320 740] /P 40 0 R >>
+endobj
+98 0 obj
+<< /Type /Annot /Subtype /Widget /FT /Btn /T (p2_check) /V /Yes /AS /Yes /F 4 /Rect [50 650 74 674] /AP << /N << /Off 32 0 R /Yes 36 0 R >> >> /P 40 0 R >>
+endobj
+xref
+0 99
+0000000000 65535 f 
+0000000015 00000 n 
+0000000080 00000 n 
+0000000144 00000 n 
+0000000597 00000 n 
+0000001020 00000 n 
+0000001117 00000 n 
+0000001279 00000 n 
+0000001352 00000 n 
+0000001420 00000 n 
+0000001521 00000 n 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000001623 00000 n 
+0000001708 00000 n 
+0000001798 00000 n 
+0000001962 00000 n 
+0000002150 00000 n 
+0000002238 00000 n 
+0000002346 00000 n 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000002526 00000 n 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000000000 65535 f 
+0000002698 00000 n 
+0000002832 00000 n 
+0000002978 00000 n 
+0000003119 00000 n 
+0000003252 00000 n 
+0000003390 00000 n 
+0000003530 00000 n 
+0000003670 00000 n 
+0000003800 00000 n 
+0000003912 00000 n 
+0000004058 00000 n 
+0000004237 00000 n 
+0000004441 00000 n 
+0000004588 00000 n 
+0000004732 00000 n 
+0000004912 00000 n 
+0000005074 00000 n 
+0000005275 00000 n 
+0000005460 00000 n 
+0000005645 00000 n 
+0000005830 00000 n 
+0000006004 00000 n 
+0000006168 00000 n 
+0000006305 00000 n 
+0000006443 00000 n 
+0000006581 00000 n 
+0000006739 00000 n 
+0000006901 00000 n 
+0000007040 00000 n 
+0000007162 00000 n 
+0000007267 00000 n 
+0000007377 00000 n 
+0000007548 00000 n 
+0000007748 00000 n 
+0000007903 00000 n 
+0000008056 00000 n 
+0000008215 00000 n 
+0000008370 00000 n 
+0000008525 00000 n 
+0000008663 00000 n 
+0000008844 00000 n 
+0000009059 00000 n 
+0000009206 00000 n 
+0000009413 00000 n 
+0000009662 00000 n 
+0000009770 00000 n 
+0000009903 00000 n 
+0000010052 00000 n 
+trailer
+<< /Size 99 /Root 1 0 R >>
+startxref
+10224
+%%EOF

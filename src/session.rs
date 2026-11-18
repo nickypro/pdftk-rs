@@ -13,8 +13,8 @@ pub enum ErrorCode {
     NoError = 0,
     Error = 1,
     Bug = 2,
-    PartialOutput = 3,
-    Warning = 4,
+    Warning = 3,
+    PartialOutput = 4,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]

@@ -1,0 +1,19 @@
+%FDF-1.2
+1 0 obj
+<< /FDF << /Fields [
+<< /T (direct) /V (direct val) >>
+<< /T (indirect_ap) /V (indirect ap val) >>
+<< /T (grp) /V /x >>
+<< /T (chk_opt) /V (export one) >>
+<< /T (shared) /V (shared val) >>
+<< /T (rot180) /V (rot 180) >>
+<< /T (rot270) /V (rot 270) >>
+<< /T (chk270) /V /Bogus >>
+<< /T (lst) /V (b) >>
+<< /T (orphan) /V (orphan new) >>
+<< /T (sigonly) /V (s) >>
+] >> >>
+endobj
+trailer
+<< /Root 1 0 R >>
+%%EOF
