@@ -35,8 +35,9 @@ jobs:
         run: |
           useradd -m tester
           chown -R tester "$GITHUB_WORKSPACE"
+          # The Java oracle needs a UTF-8 locale to receive non-ASCII arguments intact.
           su - tester -c "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --profile minimal"
-          su - tester -c "cd '$GITHUB_WORKSPACE' && ~/.cargo/bin/cargo test --locked"
+          su - tester -c "cd '$GITHUB_WORKSPACE' && LANG=C.UTF-8 LC_ALL=C.UTF-8 ~/.cargo/bin/cargo test --locked"
 
   # Build and smoke-test on every platform we release for.
   build:
