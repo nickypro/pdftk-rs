@@ -7,7 +7,8 @@ use std::process::{Command, Stdio};
 
 const ORACLE: &str = "/usr/bin/pdftk";
 const FILES: &str = concat!(env!("CARGO_MANIFEST_DIR"), "/tests/files");
-const BIG: &str = "/data/private/2510.21203.pdf";
+/// Optional large real-world PDF with bookmarks; tests that use it are skipped when absent.
+const BIG: &str = "tests/local/big.pdf";
 
 fn have_oracle() -> bool {
     let ok = Path::new(ORACLE).exists();

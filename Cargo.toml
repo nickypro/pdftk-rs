@@ -3,7 +3,12 @@ name = "pdftk-rs"
 version = "0.1.0"
 edition = "2021"
 license = "GPL-2.0-or-later"
-description = "A Rust port of pdftk (via pdftk-java), the PDF toolkit"
+description = "A Rust port of pdftk, the PDF toolkit: one small static binary, no Java"
+repository = "https://github.com/nickypro/pdftk-rs"
+homepage = "https://github.com/nickypro/pdftk-rs"
+readme = "README.md"
+keywords = ["pdf", "pdftk", "cli"]
+categories = ["command-line-utilities"]
 
 [[bin]]
 name = "pdftk-rs"

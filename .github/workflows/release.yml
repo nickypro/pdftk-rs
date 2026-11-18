@@ -1,0 +1,112 @@
+name: Release
+
+# Pushing a tag vX.Y.Z builds every target from that exact commit, attests the
+# binaries' provenance, and publishes them with checksums as a GitHub release.
+on:
+  push:
+    tags: ["v[0-9]+.[0-9]+.[0-9]+*"]
+
+permissions:
+  contents: read
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  check:
+    name: Tag matches Cargo.toml
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          want="${GITHUB_REF_NAME#v}"
+          have=$(grep -m1 '^version' Cargo.toml | cut -d'"' -f2)
+          if [ "$want" != "$have" ]; then
+            echo "::error::tag $GITHUB_REF_NAME does not match Cargo.toml version $have"
+            exit 1
+          fi
+
+  build:
+    name: ${{ matrix.target }}
+    needs: check
+    runs-on: ${{ matrix.os }}
+    permissions:
+      contents: read
+      id-token: write
+      attestations: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { target: x86_64-unknown-linux-musl,  os: ubuntu-latest,    run: true }
+          - { target: aarch64-unknown-linux-musl, os: ubuntu-24.04-arm, run: true }
+          - { target: aarch64-apple-darwin,       os: macos-latest,     run: true }
+          - { target: x86_64-apple-darwin,        os: macos-latest,     run: false }
+          - { target: x86_64-pc-windows-msvc,     os: windows-latest,   run: true }
+          - { target: aarch64-pc-windows-msvc,    os: windows-latest,   run: false }
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install target
+        shell: bash
+        run: |
+          rustup target add ${{ matrix.target }}
+          if [[ "${{ matrix.target }}" == *-musl ]]; then
+            sudo apt-get update && sudo apt-get install -y musl-tools
+          fi
+      - name: Build
+        shell: bash
+        run: |
+          if [[ "${{ matrix.target }}" == *-windows-msvc ]]; then
+            export RUSTFLAGS="-C target-feature=+crt-static"
+          fi
+          cargo build --locked --release --target ${{ matrix.target }}
+      - name: Smoke test
+        if: matrix.run
+        shell: bash
+        run: bash scripts/smoke.sh target/${{ matrix.target }}/release/pdftk-rs
+      - name: Package
+        id: package
+        shell: bash
+        run: |
+          name="pdftk-rs-${GITHUB_REF_NAME}-${{ matrix.target }}"
+          mkdir "$name"
+          cp README.md LICENSE "$name/"
+          if [[ "${{ matrix.target }}" == *-windows-msvc ]]; then
+            cp "target/${{ matrix.target }}/release/pdftk-rs.exe" "$name/"
+            7z a "$name.zip" "$name" > /dev/null
+            echo "file=$name.zip" >> "$GITHUB_OUTPUT"
+          else
+            cp "target/${{ matrix.target }}/release/pdftk-rs" "$name/"
+            tar -czf "$name.tar.gz" "$name"
+            echo "file=$name.tar.gz" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: ${{ steps.package.outputs.file }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.target }}
+          path: ${{ steps.package.outputs.file }}
+          if-no-files-found: error
+
+  publish:
+    name: Publish release
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - name: Checksums
+        run: cd dist && sha256sum pdftk-rs-* > SHA256SUMS && cat SHA256SUMS
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" dist/* \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "pdftk-rs $GITHUB_REF_NAME" \
+            --generate-notes
