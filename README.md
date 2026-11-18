@@ -44,7 +44,9 @@ Unpack and put `pdftk-rs` on your `PATH`.
 cargo install --locked --git https://github.com/nickypro/pdftk-rs
 ```
 
-If you want it to answer to the old name, add `alias pdftk=pdftk-rs`.
+The Homebrew formula also installs a `pdftk` command that points at `pdftk-rs`,
+so existing scripts work unchanged. For other install methods, add
+`alias pdftk=pdftk-rs` if you want the old name.
 
 ## What it does
 
